@@ -3,8 +3,10 @@
 > A modern, interactive personal portfolio showcasing my journey in **AI, Machine Learning, Full-Stack Development, Open Source, and Creative Work**.
 
 🌐 **Live Website:** https://pragati-portfolio-wheat.vercel.app/
+
 💻 **GitHub:** https://github.com/Pragatigupta2508
-🔗 **LinkedIn:** https://www.linkedin.com/
+
+🔗 **LinkedIn:** [https://www.linkedin.com/](https://www.linkedin.com/in/pragati-gupta-632b45335/)
 
 ---
 
@@ -130,15 +132,6 @@ An interactive dashboard for analyzing sales trends and forecasting future deman
 
 ---
 
-### ✨ Corpus Particle Field
-
-An interactive particle-based web experience combining creative visuals with dynamic user interaction.
-
-**Tech:** JavaScript, React, Canvas, Vercel
-
-🔗 GitHub: https://github.com/Pragatigupta2508/Corpus-Particle-Field
-
----
 
 ### 🌍 Explore with Pragati
 
@@ -246,7 +239,7 @@ Every production deployment can be built directly from the GitHub repository usi
 I'm always open to opportunities involving **AI/ML, software development, open source, and creative technology**.
 
 * 💻 GitHub: https://github.com/Pragatigupta2508
-* 🔗 LinkedIn: https://www.linkedin.com/
+* 🔗 LinkedIn: [https://www.linkedin.com/](https://www.linkedin.com/in/pragati-gupta-632b45335/)
 * 🌐 Portfolio: https://pragati-portfolio-wheat.vercel.app/
 
 ---
