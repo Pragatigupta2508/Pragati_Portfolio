@@ -1,26 +1,50 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #05030a;
+  color: white;
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+    overflow-x: hidden;
+
+}
+.glass-card {
+  background: rgba(255,255,255,0.04);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 20px;
+  padding: 18px;
+  transition: all 0.3s ease;
+}
+
+.glass-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(192,132,252,0.4);
+}
+@keyframes avatarPulse {
+  0% {
+    transform: scale(1);
+    box-shadow:
+      0 0 0 12px rgba(71,16,127,0.12),
+      0 0 0 24px rgba(192,132,252,0.06),
+      0 0 80px rgba(192,132,252,0.25);
+  }
+
+  50% {
+    transform: scale(1.03);
+    box-shadow:
+      0 0 0 14px rgba(71,16,127,0.15),
+      0 0 0 28px rgba(192,132,252,0.08),
+      0 0 110px rgba(192,132,252,0.35);
+  }
+
+  100% {
+    transform: scale(1);
+    box-shadow:
+      0 0 0 12px rgba(71,16,127,0.12),
+      0 0 0 24px rgba(192,132,252,0.06),
+      0 0 80px rgba(192,132,252,0.25);
+  }
 }
