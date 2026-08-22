@@ -52,17 +52,16 @@ export default function Navbar() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-8 py-5">
 
         {/* LOGO */}
-        <Link href="#home">
-          <h1 className="text-2xl font-bold tracking-wide">
-            <span
-              style={{ fontFamily: "Dancing Script" }}
-              className="text-4xl text-[#d6a77a]"
-            >
-              Pragati.
-            </span>
-          </h1>
-        </Link>
-
+       <Link href="#home">
+<h1 className="translate-x-0 xl:-translate-x-16 text-2xl font-bold tracking-wide">
+    <span
+      style={{ fontFamily: "Dancing Script" }}
+      className="text-4xl text-[#d6a77a]"
+    >
+      Pragati.
+    </span>
+  </h1>
+</Link>
         {/* NAVIGATION */}
         <div className="hidden md:flex items-center gap-10">
           {navLinks.map((link) => (
