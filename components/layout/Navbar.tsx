@@ -53,7 +53,7 @@ export default function Navbar() {
 
         {/* LOGO */}
         <Link href="#home">
-          <h1 className="-translate-x-12 text-2xl font-bold tracking-wide">
+          <h1 className="text-2xl font-bold tracking-wide">
             <span
               style={{ fontFamily: "Dancing Script" }}
               className="text-4xl text-[#d6a77a]"
