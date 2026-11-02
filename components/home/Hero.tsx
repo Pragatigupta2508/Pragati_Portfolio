@@ -137,7 +137,7 @@ export default function Hero() {
   </a>
 
   <a
-  href="/resume/Pragati_Gupta_Resume.pdf"
+  href="/resume/Pragati_Gupta_resume.pdf"
   download
   className="
     group
